@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+.container-search {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.container-search > img {
+  height: 50px;
+  width: 85px;
+  object-fit: cover;
+  object-position: center;
+  padding: 5px;
+}
+
+.container-search > form {
+  margin-right: 5px;
+  max-width: 250px;
+}
+
+.container-search > form > select {
+  height: 100%;
+  min-width: 150px;
+  width: 100%;
+
+  font-size: 1.25rem;
+  text-align: center;
+
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+
+  transition: background-image 1s ease;
+}
+
+.horario {
+  margin-top: 25vh;
+  font-size: 3rem;
+}
